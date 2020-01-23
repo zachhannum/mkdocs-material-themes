@@ -35,6 +35,11 @@ body {
 	font-size: .7rem;
 }
 
+.md-typeset hr
+{
+	border-bottom: .05rem solid var(--primaryLight);
+}
+
 .md-typeset .codehilite,
 .md-typeset .highlight {
 	background-color: var(--secondaryDark);
