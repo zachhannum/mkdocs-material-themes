@@ -10,8 +10,8 @@ Then add the css files to your MkDocs site:
 
 ```yaml
 extra_css:
-	- docs/css/mkdocs-material-themes/onedark_colors.css
-	- docs/css/mkdocs-material-themes/material_theme.css
+    - docs/css/mkdocs-material-themes/onedark_colors.css
+    - docs/css/mkdocs-material-themes/material_theme.css
 ```
 
 Only add **one** `*_colors.css` file. Each colors file corresponds to a theme.
