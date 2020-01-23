@@ -1,26 +1,27 @@
-# mkdocs-material-themes
+mkdocs-material-themes
+======================
 
-Color themes for the [Material MkDocs theme](https://squidfunk.github.io/mkdocs-material/).
+Color themes for the Material MkDocs theme: https://squidfunk.github.io/mkdocs-material/
 
-## How to use
+How to use
+===========
 
-Either copy the files in this repo to your MkDocs css directory *or* add this repository as a submodule to your MkDocs repository (this method allows for easy updates to pull in new themes, etc.)
+Either copy the files in this repo to your MkDocs css directory or add this repository as a submodule to your MkDocs repository (this method allows for easy updates to pull in new themes, etc.)
 
-Then add the css files to your MkDocs site:
+Then add the css files to your mkdocs.yml:
 
-```yaml
 extra_css:
     - docs/css/mkdocs-material-themes/onedark_colors.css
     - docs/css/mkdocs-material-themes/material_theme.css
-```
 
-Only add **one** `*_colors.css` file. Each colors file corresponds to a theme.
 
-## Custom Colorschemes
+Only add one *_colors.css file. Each colors file corresponds to a theme.
+
+Custom Colorschemes
+====================
 
 Defining a custom color scheme is simple. Create a new css file such as:
 
-```css
 /*custom_colors.css*/
 :root {
 	--primaryDark: #282C34;
@@ -40,6 +41,5 @@ Defining a custom color scheme is simple. Create a new css file such as:
 	--primaryCyan: #56B6C2;
 	--secondaryCyan: #66D9E8;
 }
-```
 
-Change each variable to the desired hex color and include in your `mkdocs.yml` file.
+Change each variable to the desired hex color and include in your mkdocs.yml file.
